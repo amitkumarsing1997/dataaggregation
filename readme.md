@@ -1,4 +1,4 @@
--- Project Summary
+##  Project Summary
 This Pentaho project orchestrates the integration and refinement of data from diverse sources, including manual input, text files, Excel files, folders, and zip files. The dataset comprises essential fields such as 'Customer ID,' 'Customer Name,' 'Segment,' 'Age,' 'Country,' 'City,' 'State,' 'Postal Code,' and 'Region.' The initial step involves sorting the data based on 'Customer ID' for organized processing, followed by merging using the 'Sorted Merge' property to consolidate the datasets seamlessly. Duplicate entries are subsequently eliminated using the 'Unique Rows' property to ensure data integrity.
 
 Addressing inconsistencies in the 'Country' field, where variations like 'US' and 'USA' coexist, is crucial for data standardization. The 'Value Mapper' property is applied to unify the country names under 'United States.' Moreover, the presence of '#' symbols in certain 'City' entries is rectified using the 'Replace In String' property.
